@@ -2,14 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     background-image: url(./IMAGENS/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 heaeder {
-    margin-left: 60px;
-    margin-top: 44px;
     display: flex;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.507);
 }
 
 .link-heaeder {
@@ -32,21 +36,16 @@ button {
     font-weight: 400;
     cursor: pointer;
     font-weight: 700;
-
+    margin-left: 64px;
+    margin-right: 32px;
 }
 
 .logo {
-    width: 500px;
-    height: 500px;
+    width: 80px;
+    height: 80px;
     border-radius: 25%;
     display: block;
-    margin-left: 50px;
-    margin-top: 163px;
-}
-
-main {
-    display: flex;
-    align-items: center;
+    margin-left: 70%;
 }
 
 .texto {
@@ -59,8 +58,7 @@ main {
 
 div {
     display: inline-block;
-    width: 495px;
-    margin-left: 64px;
+    margin-left: 600px;
     margin-top: 100px;
 }
 
